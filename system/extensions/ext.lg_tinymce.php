@@ -816,7 +816,7 @@ valid_elements : ''
 	*/
 	function update_extension( $current = '' )
 	{
-		global $DB, $OUT;
+		global $DB, $LANG, $OUT;
 
 		if ($current == '' OR $current == $this->version)
 			return FALSE;
